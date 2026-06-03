@@ -13,13 +13,17 @@ nomeInjetora = "Injetora de plástico H-400"
 totalCliclos = 5820
 #Criar uma variavel para a temperatura da zona 01
 tempZ01 = 210.5
+#Criar uma constante para valor de temperatura máxima
+TEMPERATURAMAXIMA = 250.0
 #Criar uma varival para saber se o sensor esta ativo TRUE
 sensorSegurancaAtivo = True
+
 
 texto = f"""
 Nome da Injetora        {nomeInjetora}
 Cliclos por Segundo     {totalCliclos}
 Temperatura Zona01      {tempZ01}
+Temperatura Máxima      {TEMPERATURAMAXIMA}
 Sensor Ativo            {sensorSegurancaAtivo}
 """
 
