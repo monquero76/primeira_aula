@@ -12,15 +12,15 @@ nomeInjetora = "Injetora de plástico H-400"
 #Criar uma variavel para a quandiade de ciclos por segundo
 totalCliclos = 5820
 #Criar uma variavel para a temperatura da zona 01
-temp01 = 210.5
+tempZ01 = 210.5
 #Criar uma varival para saber se o sensor esta ativo TRUE
-sAtivo = True
+sensorSegurancaAtivo = True
 
 texto = f"""
 Nome da Injetora        {nomeInjetora}
 Cliclos por Segundo     {totalCliclos}
-Temperatura Zona01      {temp01}
-Sensor Ativo            {sAtivo}
+Temperatura Zona01      {tempZ01}
+Sensor Ativo            {sensorSegurancaAtivo}
 """
 
 print(texto)
