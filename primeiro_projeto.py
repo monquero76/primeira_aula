@@ -13,3 +13,4 @@ print("Executando auto-teste de hardware")
 print("Sensores: Ok")
 print("Atuadores: Ok")
 print("Sistema pronto para operação")
+

@@ -2,7 +2,7 @@ nomeDoCliente = "Antonio Jeferson"
 idadeDoCliente = 50
 cidadeDoCliente = "Maringá"
 
-print("\nNome do Cliente: " + nomeDoCliente + "\nIdade: " + str(idadeDoCliente) + "\nCidade: " + cidadeDoCliente)
+print("\nNome do Cliente: " + nomeDoCliente + "\nIdade: ",  str(idadeDoCliente) + "\nCidade: " + cidadeDoCliente)
 print()
 
 print("Meu nome é ", nomeDoCliente)
@@ -16,6 +16,10 @@ print()
 print(f"Nome do Cliente: {nomeDoCliente}\nIdade: {idadeDoCliente}\nCidade: {cidadeDoCliente}")
 print()
 
+
+
+cidadeDoCliente = "New York"
+
 texto = f"""
 Nome do Cliente: {nomeDoCliente}
 Idade: {idadeDoCliente}
@@ -23,3 +27,4 @@ Cidade: {cidadeDoCliente}
 """
 
 print(texto)
+
