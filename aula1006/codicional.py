@@ -35,5 +35,6 @@ while True:
     else:
         print("Conceito E")
     
-    if nota == 0:
+    if nota == -1:
+        print("Saindo do Sistema")
         break
