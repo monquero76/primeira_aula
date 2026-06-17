@@ -1,3 +1,7 @@
+#Crie uma lista de compras
+#Adicione 2 elementos
+#Substitua os elementos de indices 3 e 5
+
 compras = ["cafe", "pão", "mussarela", "leite"]
 # indice = 0;
 # for c in compras:
